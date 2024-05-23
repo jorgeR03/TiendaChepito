@@ -29,7 +29,14 @@ public final class MessageCatalogBase implements MessageCatalog {
 		mensajes.put(CodigoMensaje.M00006.getIdentificador(), new Mensaje(CodigoMensaje.M00006,
 				"El identificador del mensaje \"${1}\" que se intentó obtener, no está en el catálogo de mensajes externo..."));
 
+		mensajes.put(CodigoMensaje.M00007.getIdentificador(), new Mensaje(CodigoMensaje.M00007,
+				"Se ha presentado un problema tratando de validar si la conexion SQL con la fuente de informacion estaba cerrada"));
+
+		mensajes.put(CodigoMensaje.M00008.getIdentificador(), new Mensaje(CodigoMensaje.M00008,
+				"Se ha presentado un probleman inesperado tratando de lavlidar si la conexion SQL con la fuente de informacion estaba cerrada" ));
+
 	}
+	
 
 	@Override
 	public final String obtenerContenidoMensaje(final CodigoMensaje codigo, final String... parametros) {

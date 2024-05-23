@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.messagecatalog.MessageCatalogStrategy"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.messagecatalog.data.CodigoMensaje"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.custom.CrosscuttingTiendaChepitoException"/>
+</qualifiedTypeNameHistroy>
